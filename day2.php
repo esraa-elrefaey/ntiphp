@@ -16,17 +16,16 @@
 
 
 function nextChar($char){
-  $result = ++$char ;
+  $res = ++$char ;
   
-// if we have a result will be b
-// if we have z result will be a 
+
   
-if(strlen ($result)> 1){
-  $newresult = $result[0] ; 
-  echo $newresult ;
+if(strlen ($res)> 1){
+  $newres = $res[0] ; 
+  echo $newres ;
 }
 else{
-     echo $result . "<br>";
+     echo $res . "<br>";
       }  
 }
 nextChar('a') ;
